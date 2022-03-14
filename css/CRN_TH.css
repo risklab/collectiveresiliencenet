@@ -66,7 +66,7 @@ h2 {
 
 .attribution {
   position: absolute;
-  bottom: 0px;
+  bottom:  10px;
   width: 100%;
   padding: 10px;
   z-index: 2;
