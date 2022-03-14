@@ -1,2 +1,1 @@
-# collectiveresiliencenet
-website for collectiveresilience.network
+# website for Collective Resilience Network project
