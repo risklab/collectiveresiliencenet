@@ -3,6 +3,15 @@ const lngs = {
   th: { nativeName: 'Thai' }
 };
 
+
+function changeLang(lang) {
+  console.log(lang);
+  i18next.changeLanguage(lang, () => {
+      rerender();
+    });
+}
+
+
 const rerender = () => {
   // start localizing, details:
   // https://github.com/i18next/jquery-i18next#usage-of-selector-function
@@ -25,17 +34,16 @@ $(function () {
         en: {
           translation: {
             intro: {
-              title: 'Landing Page',
-              subTitle: 'Developing methods, technologies and prototypes to embed risk reduction and preparedness into the design of cities
-              to increase local community resilience.'
+              title: 'Building Resilience Collectively',
+              subTitle: 'Some subtitle'
             }
           }
         },
         th: {
           translation: {
             intro: {
-              title: 'Webseite',
-              subTitle: 'Ein Untertitel'
+              title: 'Thai text',
+              subTitle: 'thai subtitle'
             }
           }
         }
@@ -47,20 +55,20 @@ $(function () {
       // https://github.com/i18next/jquery-i18next#initialize-the-plugin
       jqueryI18next.init(i18next, $, { useOptionsAttr: true });
 
-      // fill language switcher
-      Object.keys(lngs).map((lng) => {
-        const opt = new Option(lngs[lng].nativeName, lng);
-        if (lng === i18next.resolvedLanguage) {
-          opt.setAttribute("selected", "selected");
-        }
-        $('#languageSwitcher').append(opt);
-      });
-      $('#languageSwitcher').change((a, b, c) => {
-        const chosenLng = $(this).find("option:selected").attr('value');
-        i18next.changeLanguage(chosenLng, () => {
-          rerender();
-        });
-      });
+      // // fill language switcher
+      // Object.keys(lngs).map((lng) => {
+      //   const opt = new Option(lngs[lng].nativeName, lng);
+      //   if (lng === i18next.resolvedLanguage) {
+      //     opt.setAttribute("selected", "selected");
+      //   }
+      //   $('#languageSwitcher').append(opt);
+      // });
+      // $('#languageSwitcher').change((a, b, c) => {
+      //   const chosenLng = $(this).find("option:selected").attr('value');
+      //   i18next.changeLanguage(chosenLng, () => {
+      //     rerender();
+      //   });
+      // });
 
       rerender();
     });
