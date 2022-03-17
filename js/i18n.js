@@ -30,7 +30,8 @@ $(function () {
           translation: {
             intro: {
               title: 'Building Resilience Collectively',
-              subTitle: 'Some subtitle'
+              subTitle: 'Some subtitle',
+              aboutbtn: 'More about us'
             }
           }
         },
@@ -38,7 +39,8 @@ $(function () {
           translation: {
             intro: {
               title: 'Thai text',
-              subTitle: 'thai subtitle'
+              subTitle: 'thai subtitle',
+              aboutbtn: 'เกี่ยวกับเรา'
             }
           }
         }
