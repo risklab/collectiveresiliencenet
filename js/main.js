@@ -15,10 +15,6 @@ $('.more-btn').click(function() {
   }
 });
 
-
-
-
-
 function slickify(){
   $('.blog-slider').slick({
       autoplay: true,
@@ -29,7 +25,7 @@ function slickify(){
             breakpoint: 991,
             settings: "unslick"
         }
-      ] 
+      ]
   });
   $(".slick-next").text("");
   $(".slick-next").addClass("icofont-long-arrow-right");
@@ -41,8 +37,8 @@ slickify();
 $(window).resize(function(){
   var $windowWidth = $(window).width();
   if ($windowWidth > 991) {
-      slickify(); 
-      $('#blog-btn').addClass('hide-me');  
+      slickify();
+      $('#blog-btn').addClass('hide-me');
   }else if($windowWidth < 991) {
     $('#blog-btn').removeClass('hide-me');
   }
@@ -57,6 +53,3 @@ $('#blog-btn').click(function() {
     $("#blog-btn").text("Show More Stories.");
   }
 });
-
-
-

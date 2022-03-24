@@ -1,9 +1,23 @@
+// locales_en and locales_th comes from translation.js files in locales folder.
+// these need to be declared in index as scripts
+
+var lngs = {
+  EN: {
+    nativeName: 'English',
+    locale: this.locales_en
+  },
+  TH: {
+    nativeName: 'Thai',
+    locale: this.locales_th
+  }
+};
 
 
-function changeLang(lang) {
-  alert(lang);
-  console.log(currentLang);
-  i18next.changeLanguage(this.lang, () => {
+
+function changeLang(currentLng) {
+  console.log("changed lang to: " + lngs[currentLng].nativeName);
+  document.getElementById('navbarDropdown').innerHTML = currentLng;
+  i18next.changeLanguage(currentLng, () => {
       rerender();
     });
 }
@@ -28,19 +42,22 @@ $(function () {
       debug: true,
       fallbackLng: 'en',
       resources: {
-        en: {
+        // ENGLISH
+        EN: {
           translation: {
             intro: {
-              title: 'Building' + '<br>' +'Resilience Collectively',
-              subTitle: 'Some subtitle'
+              title: 'Building Resilience Collectively',
+              subTitle: 'Some subtitle',
+              aboutbtn: 'About us'
             }
           }
         },
-        th: {
+        TH: {
           translation: {
             intro: {
               title: 'Thai text',
-              subTitle: 'thai subtitle'
+              subTitle: 'thai subtitle',
+              aboutbtn: 'About us'
             }
           }
         }
