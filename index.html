@@ -33,6 +33,8 @@
     <title>Resilience Collective | Thailand</title>
 </head>
 <body>
+
+
   <!-- HEADER SECTION -->
   <header id="home">
     <div class="container">
@@ -50,24 +52,21 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <!-- Nav Link -->
-              <a class="nav-link" data-scroll href="#home">Home<span class="sr-only">(current)</span></a>
+              <a class="nav-link" data-scroll href="#home" data-i18n="nav.home"><span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <!-- Nav Link -->
-              <a class="nav-link" data-scroll href="#about-us">About</a>
+              <a class="nav-link" data-scroll href="#about-us" data-i18n="nav.about"></a>
             </li>
             <li class="nav-item">
               <!-- Nav Link -->
-              <a class="nav-link" data-scroll href="#portfolio">Work</a>
+              <a class="nav-link" data-scroll href="#portfolio" data-i18n="nav.work"></a>
             </li>
             <li class="nav-item">
               <!-- Nav Link -->
-              <a class="nav-link" data-scroll href="#blog">Blog</a>
+              <a class="nav-link" data-scroll href="#blog" data-i18n="nav.blog"></a>
             </li>
-            <li class="nav-item">
-              <!-- Nav Link -->
-              <a class="nav-link" data-scroll href="#contact-us">Contact Us</a>
-            </li>
+
             <li class="nav-item dropdown">
               <!-- Lang Dropdown Link -->
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</a>
@@ -81,11 +80,13 @@
           </ul>
           <form data-scroll href="#contact-us" class="contact-btn form-inline my-2 my-lg-0">
             <!-- Contacgt Us Button -->
-            <button>Contact Us</button>
+            <button data-i18n="nav.contact"></button>
           </form>
         </div>
       </nav>
     </div>
+
+
     <!-- INTRO SECTION -->
     <div class="container-fluid hero">
       <img src="images/Community-Public-Private Diagram-05.svg" alt="">
@@ -98,11 +99,13 @@
           <!-- Hero Btn First -->
           <a data-scroll href="#about-us" data-i18n="intro.aboutbtn"></a>
           <!-- Hero Btn Second -->
-          <a data-scroll href="#contact-us">Get in Touch.</a>
+          <a data-scroll href="#contact-us" data-i18n="intro.getintouchbtn"></a>
         </div>
       </div>
     </div>
   </header>
+
+
   <!-- ABOUT SECTION -->
   <section id="about-us" class="services">
     <div class="container-fluid">
@@ -115,33 +118,24 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-12 col-lg-4 service-txt">
-            <h2>The Resilience Collective is an interdisciplinary organization of researchers and designers✺</h2>
-            <div class="hero-btns service-btn">
-              <a data-scroll href="#contact-us">Get in Touch</a>
-            </div>
+            <h2 data-i18n="about.title"></h2>
           </div>
           <div class="col-12 col-sm-6 col-lg-8">
             <div class="service-box">
               <img src="images/service-icon3-01.svg" alt="">
               <!-- Service Title -->
-              <h3>Strategies ✺ Strctures ✺ Systems</h3>
+              <h3 data-i18n="about_box.title"></h3>
               <!-- Replace Patch to Image Under -->
-              <p>With a global network of partners, the Lab is a place to innovate on techniques, processes, and systems to address the complexities of seismic, climatic, and hydrologic risks. We engage in action research through extensive field work and community workshops to focus on the needs of diverse cultures and contexts. We aspire to change the course of current global development trends through a radical shift in education and action to proactively embed preparedness and risk reduction in this rapidly urbanizing world.</p>
+              <p data-i18n="about_box.subTitle"></p>
             </div>
           </div>
-          <!--<div class="col-12 col-sm-6 col-lg-4">
-            <div class="service-box">
-              <img src="images/service-icon2.svg" alt="">
-              <!-- Service Title -->
-              <!--<h3>Web & App<br>Development</h3>-->
-              <!-- Service Info -->
-              <!--<p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
-            </div>-->
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
   <!-- TEAM SECTION -->
   <section class="about">
     <div class="container">
@@ -150,14 +144,16 @@
           <img src="images/Team.svg" alt="">
         </div>
         <div class="col-12 col-sm-12 col-lg-6">
-          <h5>OUR COMPANY</h5>
-          <h2>Some Fine<br>Words About Us</h2>
+          <h5 data-i18n="team.header"></h5>
+          <h2 data-i18n="team.title"></h2>
           <!-- Replace About Us Text Under -->
-          <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.Vestibulum ac diam sit amet.Quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+          <p data-i18n="team.p_text"></p>
         </div>
       </div>
     </div>
   </section>
+
+
   <!-- PORTFOLIO SECTION -->
   <section id="portfolio" class="portfolio">
     <div class="container-fluid">
@@ -167,7 +163,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h2>Projects</h2>
+            <h2 data-i18n="portfolio.header"></h2>
           </div>
         </div>
         <div class="row">
@@ -177,7 +173,7 @@
                   <!-- Replace Patch to Image Under -->
                   <img src="images/Screen_Map_TH.png" class="photobox__preview" alt="Preview">
                   <!-- Replace Image Title Under -->
-                  <span class="photobox__label">RiskMap Thailand</span>
+                  <span class="photobox__label" data-i18n="portfolio.thRiskmap"></span>
                 </div>
               </div>
           </div>
@@ -187,7 +183,7 @@
                   <!-- Replace Patch to Image Under -->
                   <img src="images/Screen_Phone_TH.png" class="photobox__preview" alt="Preview">
                   <!-- Replace Image Title Under -->
-                  <span class="photobox__label">RiskMap Cards</span>
+                  <span class="photobox__label" data-i18n="portfolio.vaccineMap"></span>
                 </div>
               </div>
           </div>
@@ -197,87 +193,29 @@
                   <!-- Replace Patch to Image Under -->
                   <img src="images/Screen_Phone_ChatBot.png" class="photobox__preview" alt="Preview">
                   <!-- Replace Image Title Under -->
-                  <span class="photobox__label">RiskMap Chatbot</span>
+                  <span class="photobox__label" data-i18n="portfolio.toolkit"></span>
                 </div>
               </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12 col-lg-4 work-box">
-            <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <!-- Replace Patch to Image Under -->
-                  <img src="images/4.png" class="photobox__preview" alt="Preview">
-                  <!-- Replace Image Title Under -->
-                  <span class="photobox__label">Awesome Work</span>
-                </div>
-              </div>
-          </div>
-          <div class="col-12 col-lg-4 work-box">
-            <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <!-- Replace Patch to Image Under -->
-                  <img src="images/5.png" class="photobox__preview" alt="Preview">
-                  <!-- Replace Image Title Under -->
-                  <span class="photobox__label">Awesome Work</span>
-                </div>
-              </div>
-          </div>
-          <div class="col-12 col-lg-4 work-box">
-            <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <!-- Replace Patch to Image Under -->
-                  <img src="images/6.png" class="photobox__preview" alt="Preview">
-                  <!-- Replace Image Title Under -->
-                  <span class="photobox__label">Awesome Work</span>
-                </div>
-              </div>
-          </div>
-        </div>
-        <!-- Hidden Images From Portfolio -->
-        <div id="hiden-gallery" class="hide">
+
+        <!-- Project tile template - copy and uncomment this"> -->
+        <!-- <div id="hiden-gallery" class="hide">
           <div class="row">
             <div class="col-12 col-lg-4 work-box">
               <div class="photobox photobox_type10">
-                  <div class="photobox__previewbox">
+                  <div class="photobox__previewbox"> -->
                     <!-- Replace Patch to Image Under -->
-                    <img src="images/5.png" class="photobox__preview" alt="Preview">
+                    <!-- <img src="images/5.png" class="photobox__preview" alt="Preview"> -->
                     <!-- Replace Image Title Under -->
-                    <span class="photobox__label">Awesome Work</span>
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="photobox photobox_type10">
-                  <div class="photobox__previewbox">
-                    <!-- Replace Patch to Image Under -->
-                    <img src="images/3.png" class="photobox__preview" alt="Preview">
-                    <!-- Replace Image Title Under -->
-                    <span class="photobox__label">Awesome Work</span>
-                  </div>
-                </div>
-            </div>
-            <div class="col-12 col-lg-4 work-box">
-              <div class="photobox photobox_type10">
-                  <div class="photobox__previewbox">
-                    <!-- Replace Patch to Image Under -->
-                    <img src="images/1.png" class="photobox__preview" alt="Preview">
-                    <!-- Replace Image Title Under -->
-                    <span class="photobox__label">Awesome Work</span>
-                  </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 more-btn">
-            <!-- Show Me More/Less Button -->
-            <a class="more-btn-inside">Show More.</a>
-          </div>
-        </div>
+                    <!-- <span class="photobox__label">Awesome Work</span> -->
+                  <!-- </div> -->
+                <!-- </div> -->
+            <!-- </div> -->
       </div>
     </div>
   </section>
+
   <!-- BLOG SECTION -->
   <section id="blog" class="blog">
     <div class="container-fluid">
@@ -287,63 +225,42 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h5>BLOG STORIES</h5>
-            <h2>Check Our News</h2>
+            <h5 data-i18n="blog.header"></h5>
+            <h2 data-i18n="blog.title"></h2>
           </div>
         </div>
         <div id="blog-drag" class="row blog-slider">
-          <div class="col-12 col-lg-4 blog-box blog-first">
-            <!-- Blog Post Title -->
-            <h6>NEW ADVENTURE</h6>
-            <!-- Blog Post Date -->
-            <p>17 March 2019</p>
-            <!-- Blog Post -->
-            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
-          </div>
           <div class="col-12 col-lg-4 blog-box">
             <!-- Blog Post Title -->
-            <h6>NEW ADVENTURE</h6>
+            <h6 data-i18n="blog.news_header1"></h6>
             <!-- Blog Post Date -->
-            <p>17 March 2019</p>
+            <p data-i18n="blog.news_date1"></p>
             <!-- Blog Post -->
-            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            <p data-i18n="blog.news_text1"></p>
           </div>
-          <div class="col-12 col-lg-4 blog-box">
+          <div class="col-12 col-lg-4 blog-box blog-box">
             <!-- Blog Post Title -->
-            <h6>NEW ADVENTURE</h6>
+            <h6 data-i18n="blog.news_header2"></h6>
             <!-- Blog Post Date -->
-            <p>17 March 2019</p>
+            <p data-i18n="blog.news_date2"></p>
             <!-- Blog Post -->
-            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
+            <p data-i18n="blog.news_text2"></p>
           </div>
+          <div class="col-12 col-lg-4 blog-box blog-box">
+            <!-- Blog Post Title -->
+            <h6 data-i18n="blog.news_header3"></h6>
+            <!-- Blog Post Date -->
+            <p data-i18n="blog.news_date3"></p>
+            <!-- Blog Post -->
+            <p data-i18n="blog.news_text3"></p>
+          </div>
+
+
           <!-- Blog Section to be showed on Drag  -->
-          <div class="col-12 col-lg-4 blog-box hiden-blog hide-blog">
-            <!-- Blog Post Title -->
-            <h6>NEW ADVENTURE</h6>
-            <!-- Blog Post Date -->
-            <p>17 March 2019</p>
-            <!-- Blog Post -->
-            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
-          </div>
-          <div class="col-12 col-lg-4 blog-box hiden-blog  hide-blog">
-            <!-- Blog Post Title -->
-            <h6>NEW ADVENTURE</h6>
-            <!-- Blog Post Date -->
-            <p>17 March 2019</p>
-            <!-- Blog Post -->
-            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
-          </div>
-          <div class="col-12 col-lg-4 blog-box hiden-blog  hide-blog">
-            <!-- Blog Post Title -->
-            <h6>NEW ADVENTURE</h6>
-            <!-- Blog Post Date -->
-            <p>17 March 2019</p>
-            <!-- Blog Post -->
-            <p>Vestibulum ac diam sit amet quam vehicula elementum amet est on dui. Nulla porttitor accumsan tincidunt.</p>
-          </div>
-        </div>
+
+
         <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
-        <button class="hide-me" id="blog-btn">Show More Stories</button>
+        <!-- <button class="hide-me" id="blog-btn">Show More Stories</button> -->
       </div>
     </div>
   </section>
@@ -352,46 +269,48 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h5>CONTACT US</h5>
-          <h2>Get in Touch</h2>
+          <h5 data-i18n="contact.header"></h5>
+          <h2 data-i18n="contact.title"></h2>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-lg-6 email">
-          <input placeholder="Your email" type="email" id="email" pattern=".+@globex.com" size="30" required>
+          <input data-i18n="[placeholder]contact.email" type="email" id="email" pattern=".+@globex.com" size="30" required>
         </div>
         <div class="col-12 col-lg-6 email">
-          <input placeholder="Subject" type="subject" id="subject" size="30" required>
+          <input data-i18n="[placeholder]contact.subject" type="subject" id="subject" size="30" required>
         </div>
       </div>
       <div class="row">
         <div class="col-12 message">
-          <textarea id="message" name="message" rows="5" cols="1">Message here...</textarea>
+          <textarea data-i18n="contact.textarea" id="message" name="message" rows="5" cols="1"></textarea>
         </div>
         <div class="col-12">
           <div class="hero-btns contact-btn">
             <!-- Send Message Btn -->
-            <a href="#">Send Message</a>
+            <a href="#" data-i18n="contact.sendbtn"></a>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+
   <!-- FOOTER SECTION -->
   <footer>
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h5>Affiliated With</h5>
-          <h5>MIT URBAN RISK LAB</h5>
+          <h5></h5>
+          <h5></h5>
           <ul class="contact-nav">
-            <li><a data-scroll href="#home">Home</a></li>
-            <li><a data-scroll href="#about-us">About</a></li>
-            <li><a data-scroll href="#portfolio">Work</a></li>
-            <li><a data-scroll href="#blog">Blog</a></li>
-            <li><a data-scroll href="#contact-us">Contact</a></li>
+            <li><a data-scroll href="#home"></a></li>
+            <li><a data-scroll href="#about-us" data-i18n="footer.about"></a></li>
+            <li><a data-scroll href="#portfolio" data-i18n="footer.work"></a></li>
+            <li><a data-scroll href="#blog" data-i18n="footer.news"></a></li>
+            <li><a data-scroll href="#contact-us" data-i18n="footer.contact"></a></li>
           </ul>
-          <h6>© 2022 All Right Reserved</h6>
+          <h6 data-i18n="footer.attribution"></h6>
           <ul class="social">
             <li><a href="#"><i class="icofont-facebook"></i></a></li>
             <li><a href="#"><i class="icofont-twitter"></i></a></li>
