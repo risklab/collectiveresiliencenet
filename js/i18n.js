@@ -41,7 +41,7 @@ $(function () {
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
       debug: true,
-      fallbackLng: 'en',
+      fallbackLng: 'EN',
       resources: {
         // ENGLISH
         EN: Lngs.EN.locale,
