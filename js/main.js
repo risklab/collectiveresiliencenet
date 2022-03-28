@@ -53,3 +53,10 @@ $('#blog-btn').click(function() {
     $("#blog-btn").text("Show More Stories.");
   }
 });
+
+
+window.onload = (event) => {
+  i18next.changeLanguage('EN', () => {
+      rerender();
+    });
+};

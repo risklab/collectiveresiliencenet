@@ -12,6 +12,10 @@ var Lngs = {
   }
 };
 
+<<<<<<< HEAD
+=======
+//
+>>>>>>> 2545ed143d971ef68132e11a9512d680f1746d35
 // Set defulat language
 
 window.onload = (event) => {
