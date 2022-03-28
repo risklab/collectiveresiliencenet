@@ -10,7 +10,7 @@ var locales_en = {
     },
     intro: {
       header: '',
-      title: 'Building \n Resilience Collectively',
+      title: 'Building Resilience Collectively',
       subTitle: 'The Resilience Collective is an interdisciplinary hub of researchers and designers',
       aboutbtn: 'More about us',
       getintouchbtn: 'Get in Touch'
@@ -22,12 +22,12 @@ var locales_en = {
     },
     about_box: {
       title: 'Strategies - Strctures - Systems',
-      subTitle: 'With a global network of partners, the Lab is a place to innovate on techniques, processes, and systems to address the complexities of social, climatic, and hydrologic risks. We engage in action research to focus on the needs of diverse cultures and contexts.'
+      subTitle: 'Affiliated with the MIT Urban Risk Lab, we focus on the role of design to leverage better city and community development through three main areas of service. Our experiences and projects range from policies and plans, architecture, and products to software decision support tools. We aim to innovate on techniques, processes, and systems to embed risk reduction and preparedness into the design of cities to increase local community resilience. We engage in action research to focus on the needs of diverse cultures and contexts.'
     },
     team: {
       header: 'TEAM',
       title: 'The Resilience Collective is an interdisciplinary network of researchers and designers',
-      p_text: 'We aspire to change the course of current global development trends through a radical shift in research and action to proactively embed preparedness, risk reduction, and resilience capacity in this rapidly urbanizing world.',
+      p_text: 'Our international networks and affiliation allow us to draw from a unique ecosystem where we can work across disciplinary silos – from architecture, urbanism, software and hardware engineering, as well as ethnography. Through collective collaborations, we are focusing on design methodologies that tackle various risks faced by cities and communities, as well as strengthen resilience capacity.',
       aboutbtn: 'More about our team'
     },
     portfolio: {
