@@ -2,16 +2,23 @@
 // these need to be declared in index as scripts
 
 var Lngs = {
-  en: {
+  EN: {
     nativeName: 'English',
     locale: this.locales_en
   },
-  th: {
+  TH: {
     nativeName: 'Thai',
     locale: this.locales_th
   }
 };
 
+// Set defulat language
+
+window.onload = (event) => {
+  i18next.changeLanguage('EN', () => {
+      rerender();
+    });
+};
 
 
 function changeLang(currentLng) {
@@ -41,11 +48,11 @@ $(function () {
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
       debug: true,
-      fallbackLng: 'en',
+      fallbackLng: 'EN',
       resources: {
         // ENGLISH
-        en: Lngs.EN.locale,
-        th: Lngs.TH.locale
+        EN: Lngs.EN.locale,
+        TH: Lngs.TH.locale
       }
     }, (err, t) => {
       if (err) return console.error(err);
