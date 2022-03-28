@@ -2,11 +2,11 @@
 // these need to be declared in index as scripts
 
 var Lngs = {
-  EN: {
+  en: {
     nativeName: 'English',
     locale: this.locales_en
   },
-  TH: {
+  th: {
     nativeName: 'Thai',
     locale: this.locales_th
   }
@@ -41,11 +41,11 @@ $(function () {
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
       debug: true,
-      fallbackLng: 'EN',
+      fallbackLng: 'en',
       resources: {
         // ENGLISH
-        EN: Lngs.EN.locale,
-        TH: Lngs.TH.locale
+        en: Lngs.EN.locale,
+        th: Lngs.TH.locale
       }
     }, (err, t) => {
       if (err) return console.error(err);
