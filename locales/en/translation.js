@@ -10,7 +10,7 @@ var locales_en = {
     },
     intro: {
       header: '',
-      title: 'Building Resilience Collectively',
+      title: 'Building \n Resilience Collectively',
       subTitle: 'The Resilience Collective is an interdisciplinary hub of researchers and designers',
       aboutbtn: 'More about us',
       getintouchbtn: 'Get in Touch'

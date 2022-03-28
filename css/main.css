@@ -1,4 +1,4 @@
-/*-----------------------------------------------------------
+C65454/*-----------------------------------------------------------
     Theme Name: Doob | Simple Agency HTML Template
     Description: Simple Agency HTML Template
     Author: Graphberry
@@ -115,7 +115,7 @@ h4,
 h5,
 .h5 {
   font-size: 1rem;
-  color: #FF3946;
+  color: #;
 }
 h6,
 .h6 {
@@ -147,17 +147,17 @@ p {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  color: #FF3946;
+  color: #C65454;
 }
 .contact-btn i {
   font-size: 2rem;
   width: 100px;
   height: 100px;
-  color: #FF3946;
+  color: #C65454;
 }
 .hero-btns a:first-child {
-  background-color: #FF3946;
-  border:2px solid #FF3946;
+  background-color: #C65454;
+  border:2px solid #C65454;
   color: #fff;
   padding: 17px 35px;
   font-size: 1.0rem;
@@ -168,7 +168,7 @@ p {
 }
 .hero-btns a:first-child:hover {
   background-color: #fff;
-  border:2px solid #FF3946;
+  border:2px solid #C65454;
   color: #314584;
   padding: 17px 35px;
   font-size: 1.0rem;
@@ -181,7 +181,7 @@ p {
   font-size: 1.0rem;
 }
 .hero-btns a:last-child:hover {
-  color: #FF3946;
+  color: #C65454;
   transition: all 0.3s ease;
 }
 .navbar-light .navbar-toggler {
@@ -249,7 +249,7 @@ p {
   margin: 10px 0px;
 }
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #FF3946!important;
+  color: #C65454!important;
   text-decoration: none;
   background-color: #314584;
 }
@@ -258,7 +258,7 @@ p {
   font-size: 0.8rem!important;
 }
 .service-btn a:hover {
-  color: #FF3946!important;
+  color: #C65454!important;
 }
 .more-btn {
   text-align: center;
@@ -266,7 +266,7 @@ p {
 }
 .more-btn a {
   font-size: 1.2rem;
-  color: #FF3946!important;
+  color: #C65454!important;
   cursor: pointer;
   padding: 20px 30px;
 }
@@ -294,7 +294,7 @@ p {
   margin-bottom: 350px;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: #FF3946;
+  color: #C65454;
 }
 .navbar {
   padding: 50px 0 0 0;
@@ -306,7 +306,7 @@ p {
   padding: 0 10px;
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #FF3946;
+  color: #C65454;
 }
 .hero img {
   position: absolute;
@@ -485,7 +485,7 @@ p {
   transition: all 0.3s ease;
 }
 .blog-first {
-  background-color: #FF3946;
+  background-color: #C65454;
 }
 .blog-first h6 {
   color: #fff;
@@ -503,7 +503,7 @@ p {
   display: none;
 }
 #blog-btn {
-  color: #FF3946;
+  color: #C65454;
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
@@ -573,7 +573,7 @@ footer h5{
   padding-bottom: 10px;
 }
 footer h3{
-  color: #FF3946;
+  color: #C65454;
   font-size: 3rem;
   margin-bottom: 30px;
 }
@@ -587,7 +587,7 @@ footer h3{
   padding: 20px 20px;
 }
 .contact-nav a:hover {
-  color: #FF3946;
+  color: #C65454;
 }
 footer h6 {
   color: #fff;
@@ -605,7 +605,7 @@ footer h6 {
   margin: 0px 30px;
 }
 .social li a:hover {
-  color: #FF3946;
+  color: #C65454;
   transition: all 0.3s ease;
 }
 /*-----------------------------------------------------------
