@@ -94,7 +94,7 @@ h6,
 ------------------------------------------------------------*/
 body {
   color: #314584;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-size: 14px;
   font-weight: 400;
   overflow-x: hidden;
@@ -159,7 +159,7 @@ p {
   background-color: #fff;
   border-radius: 3px;
   font-size: 1.2rem;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
   font-weight: 600;
   color: #C65454;
 }
@@ -520,7 +520,7 @@ p {
 #blog-btn {
   color: #C65454;
   font-size: 1.2rem;
-  font-family: 'Prompt;', sans-serif;
+  font-family: 'IBM Plex Sans Thai;', sans-serif;
   font-weight: 600;
   background-color: #fff;
   border: none;
