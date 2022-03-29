@@ -2,45 +2,45 @@ var locales_th = {
   translation: {
     language: 'Thai',
     nav: {
-      home: 'Home',
-      about: 'About',
-      work: 'Work',
-      blog: 'News',
-      contact: 'Contact Us'
+      home: 'หน้าหลัก',
+      about: 'เกี่ยวกับ',
+      work: 'งาน',
+      blog: 'ข่าวสาร',
+      contact: 'ติดต่อเรา'
     },
     intro: {
       header: '',
-      title: 'ร่วมกันสร้างสังคมและชุมชนที่ยืดหยุ่น',
-      subTitle: 'The Resilience Collective is an interdisciplinary hub of researchers and designers',
-      aboutbtn: 'More about us',
-      getintouchbtn: 'Get in Touch'
+      title: 'สร้างสังคมและชุมชนที่ยืดหยุ่นร่วมกัน',
+      subTitle: 'พัฒนาวิธีการ เทคโนโลยี และต้นแบบ  เพื่อการออกแบบเมือง  และเสริมสร้างความยืดหยุ่นของชุมชน',
+      aboutbtn: 'เกี่ยวกับเรา',
+      getintouchbtn: 'ติดต่อเรา'
     },
     about: {
-      header: 'ABOUT',
-      title: 'Operating at the intersection of ecology and infrastructure, rural and urban, research and action.',
+      header: 'เกี่ยวกับ',
+      title: 'ปฏิบัติการบนพื้นฐานความหลากหลายของศาสตร์ ศิลป์ โครงสร้าง สิ่งแวดล้อม การวิจัย และพัฒนา',
       getintouchbtn: 'Get in Touch'
     },
     about_box: {
-      title: 'Strategies - Strctures - Systems',
-      subTitle: 'With a global network of partners, the Lab is a place to innovate on techniques, processes, and systems to address the complexities of social, climatic, and hydrologic risks. We engage in action research to focus on the needs of diverse cultures and contexts.'
+      title: 'ออกแบบ กลยุทธ์ - โครงสร้าง - ระบบ',
+      subTitle: 'ทำงานร่วมกับ MIT Urban Risk Lab เรามุ่งเน้นการนำบทบาทของกระบวนการออกแบบ มาเพื่อยกระดับการพัฒนาเมืองและชุมชน โดยคำนึงถึงการสร้างความยืดหยุ่นแก่ชุมชน และลดวามเสี่ยงต่างๆของเมือง ประสบการณ์ โครงการ และบริการของเราจะอยู่ภายใต้สามมิติหลักๆ คือการออกแบบเชิงกลยุทย์ เชิงโครงสร้างสถาปัตยกรรม และการออกแบบระบบ ผ่านการวิจัย พัฒนาวิธีการ เทคโนโลยี และต้นแบบ'
     },
     team: {
-      header: 'TEAM',
-      title: 'The Resilience Collective is an interdisciplinary network of researchers and designers',
-      p_text: 'We aspire to change the course of current global development trends through a radical shift in research and action to proactively embed preparedness, risk reduction, and resilience capacity in this rapidly urbanizing world.',
-      aboutbtn: 'More about our team'
+      header: 'ทีมของเรา',
+      title: 'Resilience Collective Network (CRN) คือกลุ่มและเครือข่ายสหวิทยาการของนักวิจัยและนักออกแบบ',
+      p_text: 'เครือข่ายองค์กรของเราช่วยให้เราสามารถดึงศักยภาพจากการทำงานร่วมกันของศาสตร์ที่หลากหลาย ทั้งการออกแบบสถาปัตยกรรมและผังเมือง วิศวกรรมซอฟต์แวร์และฮาร์ดแวร์ ภัยพิบัติศึกษา รวมไปถึงสังคมและชาติพันธุ์วิทยา',
+      aboutbtn: 'เกี่ยวกับทีมของเรา'
     },
     portfolio: {
-      header: 'Projects',
-      title: 'Pilot Projects',
+      header: 'โครงการ',
+      title: 'งานของเรา',
       aboutbtn: 'Show More',
       thRiskmap: 'RiskMap Thailand',
       vaccineMap: 'VaccineMap',
       toolkit: 'Collective Mapping toolkit',
     },
     blog: {
-      header: 'Stay updated',
-      title: 'News',
+      header: 'อัพเดทล่าสุด',
+      title: 'ข่าวสาร',
       news_header1:'Launched RiskMap Thailand',
       news_date1:'Some date',
       news_text1:'some text',
@@ -52,8 +52,8 @@ var locales_th = {
       news_text3:'some text',
     },
     contact: {
-      header: 'CONTACT US',
-      title:'Get in Touch',
+      header: 'ติดต่อเรา',
+      title:'พูดคุยเพิ่มเติม!',
       email:'Your email',
       subject: 'Subject',
       textarea: 'Message here...',
@@ -62,11 +62,11 @@ var locales_th = {
     footer: {
       title:'Affiliated With',
       header:'MIT URBAN RISK LAB',
-      home:'Home',
-      about:'About',
-      work:'Work',
-      news:'News',
-      contact:'Contact',
+      home:'หน้าหลัก',
+      about:'เกี่ยวกับ',
+      work:'งาน',
+      news:'ข่าวสาร',
+      contact:'ติดต่อเรา',
       attribution:'© 2022 All Right Reserved'
     }
   }

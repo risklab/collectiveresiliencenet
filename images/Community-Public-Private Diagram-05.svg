@@ -10,7 +10,7 @@
 	.st4{fill:#314584;}
 	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#314584;}
 	.st6{fill:#F7F5F5;}
-	.st7{fill:#267750;}
+	.st7{fill:#C65454;}
 	.st8{opacity:0.8;fill:#FFFFFF;stroke:#314584;stroke-width:1.5;stroke-miterlimit:10;enable-background:new    ;}
 	.st9{fill:url(#SVGID_1_);}
 	.st10{fill:#FFFFFF;stroke:#314584;stroke-miterlimit:10;}
@@ -308,17 +308,18 @@
 	C611.6,778.3,617.8,768.6,623.2,758.5z"/>
 <g class="st0">
 	
-		<rect x="484.8" y="590.5" transform="matrix(8.037846e-02 -0.9968 0.9968 8.037846e-02 -144.9125 1045.9209)" class="st4" width="19.1" height="22"/>
+		<rect x="484.8" y="590.5" transform="matrix(8.037560e-02 -0.9968 0.9968 8.037560e-02 -144.8941 1045.9528)" class="st4" width="19.1" height="22"/>
 </g>
 <g class="st0">
 	
-		<rect x="452.4" y="766.5" transform="matrix(8.037846e-02 -0.9968 0.9968 8.037846e-02 -351.3958 1186.6483)" class="st4" width="30" height="34.6"/>
+		<rect x="452.5" y="766.4" transform="matrix(8.037560e-02 -0.9968 0.9968 8.037560e-02 -351.3168 1186.7031)" class="st4" width="30" height="34.6"/>
 </g>
 <g class="st0">
 	<polygon class="st4" points="384.5,615 411.7,597.3 396,573.8 368.8,591.5 	"/>
 </g>
 <g>
-	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="463.9889" y1="597.7837" x2="455.308" y2="753.0177">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="463.9889" y1="390.2163" x2="455.308" y2="234.9823" gradientTransform="matrix(1 0 0 -1 0 988)">
 		<stop  offset="0" style="stop-color:#FFFFFF"/>
 		<stop  offset="5.027936e-03" style="stop-color:#314584"/>
 		<stop  offset="2.955504e-02" style="stop-color:#354583"/>
