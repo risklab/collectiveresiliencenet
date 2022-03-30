@@ -21,7 +21,7 @@ var locales_en = {
       getintouchbtn: 'Get in Touch'
     },
     about_box: {
-      title: 'Strategies - Strctures - Systems',
+      title: 'Strategies - Structures - Systems',
       subTitle: 'Affiliated with the MIT Urban Risk Lab, we focus on the role of design to leverage better city and community development through three main areas of service. Our experiences and projects range from policies and plans, architecture, and products to software decision support tools. We aim to innovate on techniques, processes, and systems to embed risk reduction and preparedness into the design of cities to increase local community resilience. We engage in action research to focus on the needs of diverse cultures and contexts.'
     },
     team: {
