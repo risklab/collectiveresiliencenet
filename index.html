@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Metas -->
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="LionCoders" />
-    <!-- Links -->
-    <link rel="icon" type="image/png" href="images/C_favicon.svg" />
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="icofont.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/slick.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="locales/en/translation.js"></script>
-    <script src="locales/th/translation.js"></script>
-    <!-- jquery i18n  -->
-    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.4/i18next.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.1/i18nextHttpBackend.min.js"></script>
-    <script src="js/i18n.js"></script>
-    <!-- Scripts Ends -->
-    <!-- Document Title -->
-    <title>Resilience Collective | Thailand</title>
-</head>
-<body>
 
+<head>
+  <!-- Metas -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="LionCoders" />
+  <!-- Links -->
+  <link rel="icon" type="image/png" href="images/C_favicon.svg" />
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="icofont.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/slick.css" rel="stylesheet" />
+  <link href="css/main.css" rel="stylesheet" />
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/smooth-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="locales/en/translation.js"></script>
+  <script src="locales/th/translation.js"></script>
+  <!-- jquery i18n  -->
+  <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@6.1.3/i18nextBrowserLanguageDetector.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/i18next@21.6.4/i18next.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-i18next@1.2.1/jquery-i18next.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.1/i18nextHttpBackend.min.js"></script>
+  <script src="js/i18n.js"></script>
+  <!-- Scripts Ends -->
+
+
+  <!-- Google analytics -->
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-WRBHCZL');
+  </script>
+  <!-- End Google Tag Manager -->
+  <!-- Document Title -->
+  <title>Resilience Collective | Thailand</title>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WRBHCZL"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <!-- HEADER SECTION -->
   <header id="home">
@@ -93,7 +119,7 @@
     <!-- INTRO SECTION -->
     <div class="container-fluid hero">
       <img src="images/Community-Public-Private Diagram-05.svg" alt="">
-      <div  class="container">
+      <div class="container">
         <!-- Hero Title -->
         <h1 id="topHeader" data-i18n="intro.title"></h1>
         <!-- Hero Title Info -->
@@ -132,9 +158,9 @@
               <p data-i18n="about_box.subTitle"></p>
             </div>
           </div>
-          </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -172,33 +198,33 @@
         <div class="row">
           <div class="col-12 col-lg-4 work-box">
             <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <!-- Replace Patch to Image Under -->
-                  <img src="images/Screen_Map_TH.png" class="photobox__preview" alt="Preview">
-                  <!-- Replace Image Title Under -->
-                  <span class="photobox__label" data-i18n="portfolio.thRiskmap"></span>
-                </div>
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/Screen_Map_TH.png" class="photobox__preview" alt="Preview">
+                <!-- Replace Image Title Under -->
+                <span class="photobox__label" data-i18n="portfolio.thRiskmap"></span>
               </div>
+            </div>
           </div>
           <div class="col-12 col-lg-4 work-box">
             <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <!-- Replace Patch to Image Under -->
-                  <img src="images/VaccineMap.png" class="photobox__preview" alt="Preview">
-                  <!-- Replace Image Title Under -->
-                  <span class="photobox__label" data-i18n="portfolio.vaccineMap"></span>
-                </div>
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/VaccineMap.png" class="photobox__preview" alt="Preview">
+                <!-- Replace Image Title Under -->
+                <span class="photobox__label" data-i18n="portfolio.vaccineMap"></span>
               </div>
+            </div>
           </div>
           <div class="col-12 col-lg-4 work-box">
             <div class="photobox photobox_type10">
-                <div class="photobox__previewbox">
-                  <!-- Replace Patch to Image Under -->
-                  <img src="images/Screen_Phone_ChatBot.png" class="photobox__preview" alt="Preview">
-                  <!-- Replace Image Title Under -->
-                  <span class="photobox__label" data-i18n="portfolio.toolkit"></span>
-                </div>
+              <div class="photobox__previewbox">
+                <!-- Replace Patch to Image Under -->
+                <img src="images/Screen_Phone_ChatBot.png" class="photobox__preview" alt="Preview">
+                <!-- Replace Image Title Under -->
+                <span class="photobox__label" data-i18n="portfolio.toolkit"></span>
               </div>
+            </div>
           </div>
         </div>
 
@@ -208,13 +234,13 @@
             <div class="col-12 col-lg-4 work-box">
               <div class="photobox photobox_type10">
                   <div class="photobox__previewbox"> -->
-                    <!-- Replace Patch to Image Under -->
-                    <!-- <img src="images/5.png" class="photobox__preview" alt="Preview"> -->
-                    <!-- Replace Image Title Under -->
-                    <!-- <span class="photobox__label">Awesome Work</span> -->
-                  <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div> -->
+        <!-- Replace Patch to Image Under -->
+        <!-- <img src="images/5.png" class="photobox__preview" alt="Preview"> -->
+        <!-- Replace Image Title Under -->
+        <!-- <span class="photobox__label">Awesome Work</span> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
       </div>
     </div>
   </section>
@@ -236,49 +262,49 @@
         <div id="blog-drag" class="row blog-slider">
           <div class="col-10 col-lg-4 blog-box">
             <!-- Blog Post Title -->
-            <!--
+  <!--
             <h6 data-i18n="blog.news_header1"></h6>
             <!-- Blog Post Date -->
-            <!--
+  <!--
             <p data-i18n="blog.news_date1"></p>
             <!-- Blog Post -->
-            <!--
+  <!--
             <p data-i18n="blog.news_text1"></p>
           </div>
           <div class="col-10 col-lg-4 blog-box blog-box">
             <!-- Blog Post Title -->
-            <!--
+  <!--
             <h6 data-i18n="blog.news_header2"></h6>
             <!-- Blog Post Date -->
-            <!--
+  <!--
             <p data-i18n="blog.news_date2"></p>
             <!-- Blog Post -->
-            <!--
+  <!--
             <p data-i18n="blog.news_text2"></p>
             <!--
           </div>
           <div class="col-10 col-lg-4 blog-box blog-box">
             <!-- Blog Post Title -->
-            <!--
+  <!--
             <h6 data-i18n="blog.news_header3"></h6>
             <!-- Blog Post Date -->
-            <!--
+  <!--
             <p data-i18n="blog.news_date3"></p>
             <!-- Blog Post -->
-            <!--
+  <!--
             <p data-i18n="blog.news_text3"></p>
           </div>
         -->
 
 
 
-          <!-- Blog Section to be showed on Drag  -->
+  <!-- Blog Section to be showed on Drag  -->
 
 
-        <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
-        <!-- <button class="hide-me" id="blog-btn">Show More Stories</button> -->
-      </div>
-    </div>
+  <!-- Blog Button to Show More or Less on Mobile&Tablet View  -->
+  <!-- <button class="hide-me" id="blog-btn">Show More Stories</button> -->
+  </div>
+  </div>
   </section>
   <!-- CONTACT SECTION -->
   <section id="contact-us" class="contact">
@@ -289,89 +315,90 @@
           <h2 data-i18n="contact.title"></h2>
         </div>
       </div>
-  <div class="col-lg-12">
-    <iframe id="JotFormIFrame-220865994064163" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.us/70693731064154" frameborder="0" style="width: 1px; min-width: 100%; height:539px; border:none;"
-      scrolling="no"> </iframe>
-    <script type="text/javascript">
-      var ifr = document.getElementById("JotFormIFrame-70693731064154");
-      if (window.location.href && window.location.href.indexOf("?") > -1) {
-        var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
-        if (ifr && get.length > 0) {
-          var src = ifr.src;
-          src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get;
-          ifr.src = src;
-        }
-      }
-      window.handleIFrameMessage = function(e) {
-        var args = e.data.split(":");
-        if (args.length > 2) {
-          iframe = document.getElementById("JotFormIFrame-" + args[2]);
-        } else {
-          iframe = document.getElementById("JotFormIFrame");
-        }
-        if (!iframe) return;
-        switch (args[0]) {
-          case "scrollIntoView":
-            iframe.scrollIntoView();
-            break;
-          case "setHeight":
-            iframe.style.height = args[1] + "px";
-            break;
-          case "collapseErrorPage":
-            if (iframe.clientHeight > window.innerHeight) {
-              iframe.style.height = window.innerHeight + "px";
+      <div class="col-lg-12">
+        <iframe id="JotFormIFrame-220865994064163" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.us/70693731064154" frameborder="0" style="width: 1px; min-width: 100%; height:539px; border:none;"
+          scrolling="no"> </iframe>
+        <script type="text/javascript">
+          var ifr = document.getElementById("JotFormIFrame-70693731064154");
+          if (window.location.href && window.location.href.indexOf("?") > -1) {
+            var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+            if (ifr && get.length > 0) {
+              var src = ifr.src;
+              src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get;
+              ifr.src = src;
             }
-            break;
-          case "reloadPage":
-            window.location.reload();
-            break;
-        }
-        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
-        if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
-          var urls = {
-            "docurl": encodeURIComponent(document.URL),
-            "referrer": encodeURIComponent(document.referrer)
+          }
+          window.handleIFrameMessage = function(e) {
+            var args = e.data.split(":");
+            if (args.length > 2) {
+              iframe = document.getElementById("JotFormIFrame-" + args[2]);
+            } else {
+              iframe = document.getElementById("JotFormIFrame");
+            }
+            if (!iframe) return;
+            switch (args[0]) {
+              case "scrollIntoView":
+                iframe.scrollIntoView();
+                break;
+              case "setHeight":
+                iframe.style.height = args[1] + "px";
+                break;
+              case "collapseErrorPage":
+                if (iframe.clientHeight > window.innerHeight) {
+                  iframe.style.height = window.innerHeight + "px";
+                }
+                break;
+              case "reloadPage":
+                window.location.reload();
+                break;
+            }
+            var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+            if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+              var urls = {
+                "docurl": encodeURIComponent(document.URL),
+                "referrer": encodeURIComponent(document.referrer)
+              };
+              iframe.contentWindow.postMessage(JSON.stringify({
+                "type": "urls",
+                "value": urls
+              }), "*");
+            }
           };
-          iframe.contentWindow.postMessage(JSON.stringify({
-            "type": "urls",
-            "value": urls
-          }), "*");
-        }
-      };
-      if (window.addEventListener) {
-        window.addEventListener("message", handleIFrameMessage, false);
-      } else if (window.attachEvent) {
-        window.attachEvent("onmessage", handleIFrameMessage);
-      }
-    </script>
-  </div>
-</div>
-
-
-  <!-- FOOTER SECTION -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h5></h5>
-          <h5></h5>
-          <ul class="contact-nav">
-            <li><a data-scroll href="#home"></a></li>
-            <li><a data-scroll href="#about-us" data-i18n="footer.about"></a></li>
-            <li><a data-scroll href="#portfolio" data-i18n="footer.work"></a></li>
-            <li><a data-scroll href="#blog" data-i18n="footer.news"></a></li>
-            <li><a data-scroll href="#contact-us" data-i18n="footer.contact"></a></li>
-          </ul>
-          <h6 data-i18n="footer.attribution"></h6>
-          <ul class="social">
-            <li><a href="#"><i class="icofont-facebook"></i></a></li>
-            <li><a href="#"><i class="icofont-twitter"></i></a></li>
-            <li><a href="#"><i class="icofont-line"></i></a></li>
-          </ul>
-        </div>
+          if (window.addEventListener) {
+            window.addEventListener("message", handleIFrameMessage, false);
+          } else if (window.attachEvent) {
+            window.attachEvent("onmessage", handleIFrameMessage);
+          }
+        </script>
       </div>
     </div>
-  </footer>
+
+
+    <!-- FOOTER SECTION -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h5></h5>
+            <h5></h5>
+            <ul class="contact-nav">
+              <li><a data-scroll href="#home"></a></li>
+              <li><a data-scroll href="#about-us" data-i18n="footer.about"></a></li>
+              <li><a data-scroll href="#portfolio" data-i18n="footer.work"></a></li>
+              <li><a data-scroll href="#blog" data-i18n="footer.news"></a></li>
+              <li><a data-scroll href="#contact-us" data-i18n="footer.contact"></a></li>
+            </ul>
+            <h6 data-i18n="footer.attribution"></h6>
+            <ul class="social">
+              <li><a href="#"><i class="icofont-facebook"></i></a></li>
+              <li><a href="#"><i class="icofont-twitter"></i></a></li>
+              <li><a href="#"><i class="icofont-line"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 </body>
+
 </html>
