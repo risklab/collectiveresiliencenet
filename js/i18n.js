@@ -12,12 +12,14 @@ var Lngs = {
   }
 };
 
+var defaultLang = 'TH';
 // Set defulat language
 
 window.onload = (event) => {
-  i18next.changeLanguage('EN', () => {
+  i18next.changeLanguage(defaultLang, () => {
       rerender();
     });
+  document.getElementById('navbarDropdown').innerHTML = defaultLang;
 };
 
 
