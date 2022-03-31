@@ -55,14 +55,15 @@ html {
 }
 a {
   font-weight: 600;
-  color: #314584;
+  color: #ffffff;
+  font-size: 1.2rem;
   text-decoration: none;
   letter-spacing: 1px;
   position: relative;
 }
 a:focus,
 a:hover {
-  color: rgba(44, 44, 44, 0.8);
+  color: #C65454;
   text-decoration: none;
 }
 img {
