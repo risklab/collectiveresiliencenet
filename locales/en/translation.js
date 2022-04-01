@@ -35,6 +35,7 @@ var locales_en = {
       title: 'Pilot Projects',
       aboutbtn: 'Show More',
       thRiskmap: 'RiskMap Thailand',
+      thRiskmaptext: 'Real-time crowdsourced disaster response',
       vaccineMap: 'VaccineMap',
       toolkit: 'Collective Mapping toolkit',
     },
