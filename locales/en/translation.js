@@ -6,7 +6,7 @@ var locales_en = {
       about: 'About',
       work: 'Work',
       blog: 'News',
-      contact: 'Contact Us'
+      contact: 'Contact'
     },
     intro: {
       header: '',
