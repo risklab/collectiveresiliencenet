@@ -69,7 +69,7 @@ var locales_en = {
       news:'News',
       contact:'Contact',
       attribution:'© 2022 All Right Reserved',
-      url: 'Supported by MIT Urban Risk Lab'
+      url: 'Supported by'
     }
   }
 }

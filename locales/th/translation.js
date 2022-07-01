@@ -68,7 +68,7 @@ var locales_th = {
       news:'ข่าวสาร',
       contact:'ติดต่อเรา',
       attribution:'© 2022 All Right Reserved',
-      url: 'สนับสนุนโดย MIT Urban Risk Lab'
+      url: 'สนับสนุนโดย'
     }
   }
 }
