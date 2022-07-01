@@ -12,7 +12,7 @@ var Lngs = {
   }
 };
 
-var defaultLang = 'TH';
+var defaultLang = 'EN';
 // Set defulat language
 
 window.onload = (event) => {
