@@ -28,6 +28,7 @@
 -------------------------------------------------------------*/
 #topHeader {
   max-width: 70%;
+  text-align: left;
 }
 
 
@@ -733,6 +734,12 @@ footer a {
 
 }
 @media (max-width: 768px) {
+  #topHeader {
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
   .hero h1 {
     font-size: 3.5rem;
   }
