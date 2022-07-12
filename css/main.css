@@ -578,14 +578,14 @@ textarea {
   10. Footer
 -------------------------------------------------------------*/
 footer {
-  background-color: #314584;
+  background-color: #fff;
   width: 100%;
   min-height: 400px;
   text-align: center;
   padding: 70px 0px 0px 0px;
 }
 footer h5{
-  color: #fff;
+  color: #314584;
   padding-bottom: 10px;
 }
 footer h3{
@@ -595,10 +595,10 @@ footer h3{
 }
 .contact-nav li {
   display: inline;
-  color: #fff;
+  color: #314584;
 }
 .contact-nav a {
-  color: #fff;
+  color: #314584;
   font-size: 1.1rem;
   padding: 20px 20px;
 }
@@ -606,18 +606,21 @@ footer h3{
   color: #C65454;
 }
 footer h6 {
-  color: #fff;
+  color: #314584;
   font-size: 0.9rem;
   font-weight: 400;
   margin-top: 50px;
   margin-bottom: 20px;
+}
+footer a {
+  color: #314584;
 }
 .social li {
   display: inline;
 }
 .social li a {
   font-size: 2.7rem;
-  color: #fff;
+  color: #314584;
   margin: 0px 30px;
 }
 .social li a:hover {
@@ -782,5 +785,13 @@ footer h6 {
   }
   .social li {
     display: block;
+  }
+}
+
+@media (max-width: 454px) {
+  .hero h1 {
+    font-size: 3.0rem;
+    margin-top: 50px;
+    text-align: center;
   }
 }
