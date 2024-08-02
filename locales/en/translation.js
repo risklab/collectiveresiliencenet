@@ -4,7 +4,7 @@ var locales_en = {
     nav: {
       home: 'Home',
       about: 'About',
-      work: 'Work',
+      work: 'Projects',
       blog: 'News',
       contact: 'Contact'
     },
@@ -37,7 +37,7 @@ var locales_en = {
       thRiskmap: 'RiskMap Thailand',
       thRiskmaptext: 'Real-time crowdsourced disaster response',
       vaccineMap: 'VaccineMap',
-      toolkit: 'Collective Mapping toolkit',
+      toolkit: 'Copin: Community Mapping Toolkit',
     },
     blog: {
       header: 'Stay updated',
