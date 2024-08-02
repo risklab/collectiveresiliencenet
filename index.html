@@ -185,11 +185,11 @@
 
 
   <!-- PORTFOLIO SECTION -->
-  <!-- <section id="portfolio" class="portfolio">
+<section id="portfolio" class="portfolio">
     <div class="container-fluid">
-      <div class="portfolio-aside">
+      <!-- <div class="portfolio-aside">
         <img src="images/aside3.svg" alt="">
-      </div>
+      </div> -->
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -197,37 +197,40 @@
           </div>
         </div>
         <div class="row">
+          <!--//Copin?//-->
           <div class="col-12 col-lg-4 work-box">
             <div class="photobox photobox_type10">
-              <div class="photobox__previewbox"> -->
+              <div class="photobox__previewbox">
                 <!-- Replace Patch to Image Under -->
-                <!-- <img src="images/Screen_Map_TH.png" class="photobox__preview" alt="Preview"> -->
+                <img src="images/Screen_Phone_ChatBot.png" class="photobox__preview" alt="Preview">
                 <!-- Replace Image Title Under -->
-                <!-- <span class="photobox__label" data-i18n="portfolio.thRiskmap"</span>
+                <span class="photobox__label" data-i18n="portfolio.toolkit"></span>
               </div>
             </div>
           </div>
+          <!--//RiskMap Thailand Project//-->
           <div class="col-12 col-lg-4 work-box">
             <div class="photobox photobox_type10">
-              <div class="photobox__previewbox"> -->
+              <div class="photobox__previewbox"> 
                 <!-- Replace Patch to Image Under -->
-                <!-- <img src="images/VaccineMap.png" class="photobox__preview" alt="Preview"> -->
+                <img src="images/Screen_Map_TH.png" class="photobox__preview" alt="Preview">
                 <!-- Replace Image Title Under -->
-                <!-- <span class="photobox__label" data-i18n="portfolio.vaccineMap"></span>
+               <span class="photobox__label" data-i18n="portfolio.thRiskmap"></span>
               </div>
             </div>
           </div>
+          <!--//VaccineMap Project//-->
           <div class="col-12 col-lg-4 work-box">
             <div class="photobox photobox_type10">
-              <div class="photobox__previewbox"> -->
+              <div class="photobox__previewbox">
                 <!-- Replace Patch to Image Under -->
-                <!-- <img src="images/Screen_Phone_ChatBot.png" class="photobox__preview" alt="Preview"> -->
+                <img src="images/VaccineMap.png" class="photobox__preview" alt="Preview">
                 <!-- Replace Image Title Under -->
-                <!-- <span class="photobox__label" data-i18n="portfolio.toolkit"></span>
+                <span class="photobox__label" data-i18n="portfolio.vaccineMap"></span>
               </div>
             </div>
           </div>
-        </div> -->
+        </div> 
 
         <!-- Project tile template - copy and uncomment this"> -->
         <!-- <div id="hiden-gallery" class="hide">
@@ -307,72 +310,39 @@
   </div>
   </div>
   </section>
-  <!-- CONTACT SECTION -->
-  <section id="contact-us" class="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h5 data-i18n="contact.header"></h5>
-          <h2 data-i18n="contact.title"></h2>
-        </div>
-      </div>
-      <div class="col-lg-12">
-        <iframe id="JotFormIFrame-220865994064163" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.us/70693731064154" frameborder="0" style="width: 1px; min-width: 100%; height:539px; border:none;"
-          scrolling="no"> </iframe>
-        <script type="text/javascript">
-          var ifr = document.getElementById("JotFormIFrame-70693731064154");
-          if (window.location.href && window.location.href.indexOf("?") > -1) {
-            var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
-            if (ifr && get.length > 0) {
-              var src = ifr.src;
-              src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get;
-              ifr.src = src;
-            }
-          }
-          window.handleIFrameMessage = function(e) {
-            var args = e.data.split(":");
-            if (args.length > 2) {
-              iframe = document.getElementById("JotFormIFrame-" + args[2]);
-            } else {
-              iframe = document.getElementById("JotFormIFrame");
-            }
-            if (!iframe) return;
-            switch (args[0]) {
-              case "scrollIntoView":
-                iframe.scrollIntoView();
-                break;
-              case "setHeight":
-                iframe.style.height = args[1] + "px";
-                break;
-              case "collapseErrorPage":
-                if (iframe.clientHeight > window.innerHeight) {
-                  iframe.style.height = window.innerHeight + "px";
-                }
-                break;
-              case "reloadPage":
-                window.location.reload();
-                break;
-            }
-            var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
-            if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
-              var urls = {
-                "docurl": encodeURIComponent(document.URL),
-                "referrer": encodeURIComponent(document.referrer)
-              };
-              iframe.contentWindow.postMessage(JSON.stringify({
-                "type": "urls",
-                "value": urls
-              }), "*");
-            }
-          };
-          if (window.addEventListener) {
-            window.addEventListener("message", handleIFrameMessage, false);
-          } else if (window.attachEvent) {
-            window.attachEvent("onmessage", handleIFrameMessage);
-          }
-        </script>
+<!-- CONTACT SECTION -->
+<section id="contact-us" class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h5 data-i18n="contact.header">Get in Touch</h5>
+        <h2 data-i18n="contact.title">Contact Us</h2>
       </div>
     </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <form id="contact-form" action="your-form-handler-url" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" class="form-control" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- FOOTER SECTION -->
     <footer>

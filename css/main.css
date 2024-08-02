@@ -379,13 +379,17 @@ p {
 /*-----------------------------------------------------------
  7. Portfolio
 -------------------------------------------------------------*/
+.portfolio {
+  max-height: 550px;
+}
+
 .portfolio-aside img {
-  margin-top: 20px;
+  margin-top: 50px;
   position: absolute;
   left: -20px;
 }
 .work-box {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .work-box img {
   width: 370px;
@@ -538,7 +542,7 @@ p {
   9. Contact
 -------------------------------------------------------------*/
 .contact {
-  max-height: 550px;
+  max-height: 750px;
 }
 .email input {
   width: 100%;
@@ -575,6 +579,59 @@ textarea {
   color: #314584;
   font-weight: 600;
 }
+
+.contact {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.contact h5 {
+  color: #ff6347;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contact .form-group {
+  margin-bottom: 15px;
+}
+
+.contact .form-control {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.contact .form-control:focus {
+  border-color: #ff6347;
+  box-shadow: 0 0 5px rgba(255, 99, 71, 0.5);
+}
+
+.contact .btn-primary {
+  background-color: #ff6347;
+  border-color: #ff6347;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.contact .btn-primary:hover {
+  background-color: #e55342;
+  border-color: #e55342;
+}
+
+.contact .text-center {
+  text-align: center;
+}
+
+
 /*-----------------------------------------------------------
   10. Footer
 -------------------------------------------------------------*/
